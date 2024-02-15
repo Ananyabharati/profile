@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya Bharati</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- ======navbar====== -->
+    <div class="nav">
+        
+            <a href="" id="nav-img-ac">
+                <img src="/assets/img2.jpg" alt="" class="profile-pic">
+            </a>
+       
+        <h1>Ananya Bharati</h1>
+        <p>Software Engineer</p>
+        <nav class="nav-link">
+            <ul class="nav-links-list " id="navList" onclick="toggleNavbar()">
+                <li class="links">
+                    <a href="#home">HOME</a>
+                </li>
+                <li class="links">
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li class="links">
+                    <a href="#skills">SKILLS</a>
+                </li>
+                <!-- <li class="links">
+                    <a href="">PROJECTS</a>
+                </li>
+                <li class="links">
+                    <a href="">CONTACT</a>
+                </li> -->
+            </ul>
+        </nav>
+        <div id="cross" onclick="toggleNavbar()"><i class='bx bx-menu-alt-right'></i></div>
+    </div>
+    <!-- ======navbar====== -->
+
+    <!-- ========Home======= -->
+    <div class="home" id="home">
+        <div class="home-content">
+            <h1>Hi There <br>I'm Ananya <span>Bharati</span></h1>
+            <h3>Software Engineer</h3>
+            <button onclick="window.open('assets/resume.pdf')">Download Cv <i class='bx bx-download'></i></button>
+            <ul class="home-links-list">
+                <li class="home-links">
+                    <a href="https://www.linkedin.com/in/ananya-bharati-854625289/" target="_blank"><i class='bx bxl-linkedin-square home-icon'></i></a>
+                </li>
+                <li class="home-links">
+                    <a href="https://x.com/_An_ananya?t=Ep0lwwqyoiyJJueyc_bgeg&s=09" target="_blank"><i class='bx bxl-twitter home-icon'></i></a>
+                </li>
+                <li class="home-links">
+                    <a href="https://github.com/Ananyabharati" target="_blank"><i class='bx bxl-github home-icon'></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="home-img">
+            <img src="assets/img3.png" alt="">
+        </div>
+    </div>
+    <!-- ========Home======= -->
+
+    <!-- ======About====== -->
+    <div class="About" id="about">
+        <p>Get To Know More</p>
+        <h1>About Me</h1>
+        <div class="about-box">
+            <div class="about-img">
+                <div class="about-img-text">
+                    <p>Ananya Bharati</p>
+                    <div class="line"></div>
+                </div>
+                <img src="assets/img.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <div class="education">
+                    <i class='bx bx-book-alt'></i>
+                    <h6>Education<br> CSE <br>Kalinga Institute of Industrial Technology</h6>
+                </div>
+                <div class="about-summery">
+                    <h5>As a second-year student, I specialize in C, data structures, and Java, with a focus on Swing
+                        for user interface development and JDBC for database connectivity. My proficiency in these
+                        technologies enables me to design robust and interactive applications. I am passionate about
+                        leveraging my skills to contribute to dynamic projects, combining my knowledge of data
+                        structures with Java's Swing and JDBC capabilities for comprehensive software development.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======About====== -->
+
+    <!-- =======Skills====== -->
+    <div class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="skill-content">
+            <div class="skills-div">C</div>
+            <div class="skills-div">JAVA</div>
+            <div class="skills-div">DSA</div>
+            <div class="skills-div">HTML</div>
+            <div class="skills-div">CSS</div>
+        </div>
+    </div>
+    <!-- =======Skills====== -->
+
+    <!-- =======Copyright======== -->
+    <div class="copright">
+        Copyright © 2024 Ananya Bharati. <br> All Rights Reserved.
+    </div>
+    <!-- =======Copyright======== -->
+
+    <!-- =======Script====== -->
+    <script>
+        function toggleNavbar() {
+            var navList = document.getElementById('navList');
+            navList.classList.toggle('active');
+        }
+    </script>
+    <!-- =======Script====== -->
+</body>
+
+</html>
