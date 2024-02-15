@@ -792,6 +792,7 @@ button:hover {
     }
 
     .skill-content {
+        justify-content: center;
         gap: 13px;
         flex-wrap: wrap;
         width: 100%;
